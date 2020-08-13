@@ -57,7 +57,7 @@ coin.addEventListener('click', event => {
 const shopBtn = document.querySelector('#shopBtn');
 shopBtn.addEventListener('click', () => {
     click.play();
-    window.location = "/shop.html";
+    window.location = "/coin-flip//shop.html";
 });
 
 const restartBtn = document.querySelector('#restartBtn');
@@ -69,11 +69,11 @@ restartBtn.addEventListener('click', () => {
 const helpBtn = document.querySelector('#helpBtn');
 helpBtn.addEventListener('click', () => {
     click.play();
-    window.location = "/";
+    window.location = "/coin-flip/";
 });
 
 const settingsBtn = document.querySelector('#settingsBtn');
 settingsBtn.addEventListener('click', () => {
     click.play();
-    window.location = "/settings.html";
+    window.location = "/coin-flip/settings.html";
 });
