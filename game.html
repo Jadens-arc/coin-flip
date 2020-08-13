@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coin Flip</title>
+    <link href="https://fonts.googleapis.com/css2?family=Rowdies:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="game-styles.css">
+    <script src="app.js" defer></script>
+</head>
+
+<body>
+    <audio src="assets/click.mp3" id="click"></audio>
+    <audio src="assets/woosh.mp3" id="woosh"></audio>
+    <div class="title-container">
+        <h1 class="title">Coin Flip</h1>
+    </div>
+
+    <div class="menubar">
+        <p>By Jaden Arceneaux</p>
+        <div class="buttons">
+            <a class="button" id="shopBtn">Shop</a>
+            <a class="button" id="restartBtn">Restart</a>
+            <a class="button" id="helpBtn">Help</a>
+            <a class="button" id="settingsBtn">Settings</a>
+        </div>
+
+    </div>
+    <main>
+        <div class="coin-container">
+            <img src="assets/static-coin.gif" class="coin">
+        </div>
+        <div class="info">
+            <div class="counter-container">
+                <span class="dollarsign">$</span>
+                <span id="counter">0</span>
+            </div>
+
+
+
+            <div class="multiplier-container">
+                <span>✗ </span>
+                <span id="multiplier">1</span>
+            </div>
+        </div>
+    </main>
+
+
+
+</body>
+
+</html>

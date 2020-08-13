@@ -1,0 +1,11 @@
+{
+  "name": "coin-flip",
+  "version": "1.0.0",
+  "description": "A simple coin flipping game",
+  "main": "index.js",
+  "scripts": {
+    "test": "live-server --no-browser"
+  },
+  "author": "Jaden Arceneaux",
+  "license": "ISC"
+}
